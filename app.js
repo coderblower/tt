@@ -6,4 +6,6 @@ app.get('/', (req, res)=>{
     res.send('hello')
 })
 
-app.listen(process.env.PORT || 3000)
+let env = process.env.PORT || 3000; 
+
+app.listen(3000)
