@@ -8,4 +8,4 @@ app.get('/', (req, res)=>{
 
 let env = process.env.PORT || 3000; 
 
-app.listen(3000)
+app.listen(env)
